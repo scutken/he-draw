@@ -5,7 +5,7 @@ import { useYjsStore } from './useYjsStore';
 const HOST_URL =
 	import.meta.env.MODE === 'development'
 		? 'ws://localhost:1234'
-		: 'wss://yjs.heshe.tech'
+		: 'wss://demos.yjs.dev'
 
 
 export default function App() {
